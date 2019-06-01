@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../photos/images7.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+.contact-title {
+ margin:0px;
+ color:white;
+ text-transform:uppercase;
+
+}
+
+.contact-title h1 {
+    font-size:32px;
+    line-height: 10px;
+    transition: width 2s, height 2s, transform 2s; 
+   
+}
+.contact-title h2 {
+    font-size: 16px;
+}
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;    
+}
+
+.formcontrol {
+width: 600px;
+background: none;
+outline:none;
+border-bottom: 1px solid gray;
+color:white;
+font-size:18px;
+margin-bottom:16px;
+}
+
+input {
+    height: 45px;
+}
+
+button {
+    background:red;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    margin-top: 20px 40px; 
+    border-radius: 10px;
+    width:300px;
+}
+
+button:hover {
+    background-color: #f44;
+    cursor: pointer;
+}
+
+textarea {
+    margin: 20px 20px;
+}
+
+.contact-form {
+    border: none;
+    width:70%;
+    display:inline-block;  
+}
+.contact-form button {
+    margin-bottom:10px;
+}
+
+#description h2 {
+    width: 600px;   
+}
+
+#description {
+    float: left;
+    width: 30%;
+    display: block;  
+}
+
+#signup {
+font-size: 30px;
+color: #ff9b54;
+font-family: sans-serif;
+}
+
+.Nav-bar ul li {
+    margin: 0px; 
+    padding : 0px;
+    background-color: crimson;
+    color: white;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 200px;
+    height: 40px;
+}
+
+
+
+
+

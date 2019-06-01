@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8"/>
+    <title>contact form design</title>
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<!--The body starts here-->
+<body>
+    <div class="Nav-bar"> <!--this the nav bar-->
+    <ul>
+        <li><a>Home</a></li><!--This is menu-->
+        <li><a>About</a>
+            <ul>
+                <li><a>Our team</a></li> <!--This is first submenu-->
+                <li><a>Camp Sites</a></li>
+                <li><a>Mission and vision</a></li>
+                <li><a>Resources</a></li>
+             
+            </ul>
+        </li>
+        <li><a>Things to do</a>
+        <ul>
+                <li><a>Activities</a></li> <!--This is second submenu-->
+                <li><a>Parks</a></li>
+                <li><a>Shops</a></li>
+                <li><a>Events</a></li>
+        </ul>
+        
+    </li>
+        
+        <li><a>Contact</a>
+        <ul>
+                <li><a>Map</a></li> <!--This is third submenu-->
+                <li><a>Directions</a></li>
+                
+        </ul>
+        
+        
+        
+        </li>
+        <li><a>News</a></li>
+        </ul>
+    </div>
+   
+    <div class="contact-title">
+ <h1>Hello!</h1>
+ <h2>We are always here to serve you!</h2>
+ </div>
+
+ <div id="description">
+     <blockquote>
+    <br><h2>
+        <em><span id="signup">Signup</span> </em>to get your membership and <br>enjoy wonderfull web construct to<br> your satisfaction.</h2>
+    </blockquote>
+ </div>
+
+ <div class="contact-form">
+     <form id="contact-form">
+         <input type="text" name="name" value="" class="formcontrol" id="name" placeholder="Enter your name" required>
+         <br>
+         <input type="email" name="email" value="" class="formcontrol" id="email" placeholder="Enter your email" required>
+         <br>
+         <button onclick="validateSignUp()">submit</button>
+         <br>
+         <textarea name="message" id="message" placeholder="message" rows="6" required>
+            </textarea> 
+            <br>
+             <button>send message</button>
+
+         </textarea>
+</form>
+</div>
+ 
+
+
+
+</body>
+
+</html>
